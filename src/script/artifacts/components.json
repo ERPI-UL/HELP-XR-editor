@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Button",
+        "display": "BUTTON",
+        "icon": "",
+        "tooltip": "BUTTON_TOOLTIP",
+        "properties": [
+            
+        ],
+        "events": [
+            {
+                "name": "WhenPressed",
+                "display": "WHEN_PRESSED",
+                "tooltip": "WHEN_PRESSED_TOOLTIP",
+                "params": []
+            },
+            {
+                "name": "WhenReleased",
+                "display": "WHEN_RELEASED",
+                "tooltip": "WHEN_RELEASED_TOOLTIP",
+                "params": []
+            }
+        ]
+    },
+    {
+        "name": "Switch",
+        "display": "SWITCH",
+        "icon": "",
+        "tooltip": "SWITCH_TOOLTIP",
+        "properties": [
+            {
+                "name": "angle",
+                "display": "ANGLE",
+                "tooltip": "ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 25,
+                "method": "SetStop"
+            },
+            {
+                "name": "default_on",
+                "display": "DEFAULT_ON",
+                "tooltip": "DEFAULT_ON_TOOLTIP",
+                "type": "checkbox",
+                "default": false,
+                "method": "SetState"
+            }
+        ],
+        "events": [
+            {
+                "name": "WhenTurnedOn",
+                "display": "WHEN_TURNED_ON",
+                "tooltip": "WHEN_TURNED_ON_TOOLTIP",
+                "params": []
+            },
+            {
+                "name": "WhenTurnedOff",
+                "display": "WHEN_TURNED_OFF",
+                "tooltip": "WHEN_TURNED_OFF_TOOLTIP",
+                "params": []
+            }
+        ]
+    },
+    {
+        "name": "Crank",
+        "display": "CRANK",
+        "icon": "",
+        "tooltip": "CRANK_TOOLTIP",
+        "properties": [
+            {
+                "name": "minAngle",
+                "display": "MIN_ANGLE",
+                "tooltip": "MIN_ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 0,
+                "method": "SetMinAngle"
+            },
+            {
+                "name": "maxAngle",
+                "display": "MAX_ANGLE",
+                "tooltip": "MAX_ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 360,
+                "method": "SetMaxAngle"
+            },
+            {
+                "name": "angle",
+                "display": "ANGLE",
+                "tooltip": "ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 180,
+                "method": "SetAngle"
+            },
+            {
+                "name": "target",
+                "display": "TARGET",
+                "tooltip": "TARGET_TOOLTIP",
+                "type": "target",
+                "default": "",
+                "method": "SetTarget"
+            }
+        ],
+        "events": [
+            {
+                "name": "WhenAngleChanged",
+                "display": "WHEN_ANGLE_CHANGED",
+                "tooltip": "WHEN_ANGLE_CHANGED_TOOLTIP",
+                "params": []
+            }
+        ]
+    },
+    {
+        "name": "Slider",
+        "display": "SLIDER",
+        "icon": "",
+        "tooltip": "SLIDER_TOOLTIP",
+        "properties": [
+            {
+                "name": "maxDisplacement",
+                "display": "MAX_DISPLACEMENT",
+                "tooltip": "MAX_DISPLACEMENT_TOOLTIP",
+                "type": "number",
+                "default": 1,
+                "method": "SetStop"
+            },
+            {
+                "name": "speed",
+                "display": "SPEED",
+                "tooltip": "SPEED_TOOLTIP",
+                "type": "number",
+                "default": 0.5,
+                "method": "SetSpeed"
+            }
+        ],
+        "events": []
+    },
+    {
+        "name": "Hinge",
+        "display": "HINGE",
+        "icon": "",
+        "tooltip": "HINGE_TOOLTIP",
+        "properties": [
+            {
+                "name": "minAngle",
+                "display": "MIN_ANGLE",
+                "tooltip": "MIN_ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 0,
+                "method": "SetMinAngle"
+            },
+            {
+                "name": "maxAngle",
+                "display": "MAX_ANGLE",
+                "tooltip": "MAX_ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 360,
+                "method": "SetMaxAngle"
+            },
+            {
+                "name": "angle",
+                "display": "ANGLE",
+                "tooltip": "ANGLE_TOOLTIP",
+                "type": "number",
+                "default": 180,
+                "method": "SetAngle"
+            },
+            {
+                "name": "target",
+                "display": "TARGET",
+                "tooltip": "TARGET_TOOLTIP",
+                "type": "target",
+                "default": null,
+                "method": "SetTarget"
+            },
+            {
+                "name": "useGravity",
+                "display": "GRAVITY",
+                "tooltip": "GRAVITY_TOOLTIP",
+                "type": "checkbox",
+                "default": false,
+                "method": "UseGravity"
+            }
+        ],
+        "events": [
+            {
+                "name": "WhenAngleChanged",
+                "display": "WHEN_ANGLE_CHANGED",
+                "tooltip": "WHEN_ANGLE_CHANGED_TOOLTIP",
+                "params": []
+            }
+        ]
+    },
+    {
+        "name": "Color",
+        "display": "COLOR",
+        "icon": "",
+        "tooltip": "COLOR_TOOLTIP",
+        "properties": [
+            {
+                "name": "color",
+                "display": "COLOR",
+                "tooltip": "COLOR_TOOLTIP",
+                "type": "color",
+                "default": "#5850ec",
+                "method": "SetColor"
+            }
+        ],
+        "events": [
+            {
+                "name": "WhenColorChanged",
+                "display": "WHEN_COLOR_CHANGED",
+                "tooltip": "WHEN_COLOR_CHANGED_TOOLTIP",
+                "params": []
+            }
+        ]
+    },
+    {
+        "name": "Sound",
+        "display": "SOUND",
+        "icon": "",
+        "tooltip": "SOUND_TOOLTIP",
+        "properties": [
+            {
+                "name": "sound",
+                "display": "SOUND",
+                "tooltip": "SOUND_TOOLTIP",
+                "type": "file",
+                "accept": ".mp3, .ogg, .wav",
+                "default": null,
+                "method": "SetSoundId"
+            },
+            {
+                "name": "loop",
+                "display": "LOOP",
+                "tooltip": "LOOP_TOOLTIP",
+                "type": "checkbox",
+                "default": false,
+                "method": "SetLooping"
+            }
+        ],
+        "events": []
+    }
+]

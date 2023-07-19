@@ -1,0 +1,31 @@
+build_prod:
+  before_script:
+    - docker-compose -f docker-compose.prod.yml down --rmi all
+    - echo y | docker network prune
+  variables:
+      ENV: production
+      VITE_API_PROD_URL: https://indico-api.lf2l.fr
+  stage: deploy
+  tags : 
+    - indico-front
+  only:
+    refs:
+      - master
+  script:
+    -  docker-compose -f docker-compose.prod.yml up -d --force-recreate
+
+build_staging:
+  before_script:
+    - docker-compose -f docker-compose.dev.yml down --rmi all
+    - echo y | docker network prune
+  variables:
+      ENV: development
+      VITE_API_PROD_URL: https://indico.apis.furwaz.fr
+  stage: deploy
+  tags : 
+    - indico-front
+  only:
+    refs:
+      - dev
+  script:
+    -  docker-compose -f docker-compose.dev.yml up -d --force-recreate

@@ -1,0 +1,33 @@
+@startuml
+frame devices {
+    artifact AR[
+        Hololens
+    ]
+    artifact VR [
+        Meta Quest 2
+    ]
+    artifact Smartphone
+    artifact Computer
+}
+
+frame "virtual machine" {
+    frame frontend {
+        component webApp [
+            Web app
+        ]
+    }
+    frame backend {
+        component API
+        folder augmentations
+        database SQL
+    }
+}
+
+Smartphone -- webApp
+Computer -- webApp
+webApp -- API
+API -- augmentations
+API -- SQL
+AR -- API
+VR -- API
+@enduml

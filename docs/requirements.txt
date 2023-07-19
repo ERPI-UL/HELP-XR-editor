@@ -1,0 +1,5 @@
+mkdocs 
+mkdocs-material 
+mkdocs-glightbox 
+mkdocs-minify-plugin
+mkdocs_puml

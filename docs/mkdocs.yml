@@ -1,0 +1,104 @@
+site_name: Indico Documentation
+docs_dir: src
+theme:
+  language: fr
+  name: material
+  logo: assets/logo_white.png
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  locale: fr
+  features:
+    - content.code.select
+    - content.code.copy
+    - content.code.annotate
+
+nav:
+  - Accueil: index.md
+  - Lexique: lexicon.md
+  - Documentation utilisateur:
+    - Accueil: user/index.md
+    - Étudiant:
+      - Accueil: user/student/index.md
+      - Compte: user/student/account.md
+      - Activités: user/student/activity.md
+      - Artéfacts: user/student/artifact.md
+      - Environnements: user/student/workplace.md
+    - Professeur:
+      - Accueil: user/professor/index.md
+      - Compte: user/professor/account.md
+      - Activités: user/professor/activity.md
+      - Artéfacts: user/professor/artifact.md
+      - Environnements: user/professor/workplace.md
+    - Administrateur:
+      - Accueil: user/administrator/index.md
+      - Compte: user/administrator/account.md
+    - Application XR:
+      - Accueil: user/xr/index.md
+  - Documentation développeur:
+    - Accueil: developer/index.md
+    - Site web:
+      - Accueil: developer/website/index.md
+      - Informations: developer/website/informations.md
+      - Installation: developer/website/install.md
+      - Docker: developer/website/docker.md
+      - Documentation: developer/website/documentation.md
+      - Traductions: developer/website/translations.md
+      - Blockly: developer/website/blockly.md
+    - API: 
+      - Accueil: developer/api/index.md
+      - Informations: developer/api/informations.md
+      - Performance: developer/api/performance.md
+      - Statistiques: developer/api/statistics.md
+    - Applications XR:
+      - Accueil: developer/xr/index.md
+    - Composants:
+      - Accueil: developer/components/index.md
+      - Propriétés: developer/components/properties.md
+      - Évènements: developer/components/events.md
+      - Méthodes: developer/components/methods.md
+      - Scripts: developer/components/scripts.md
+      - Représentation: developer/components/representation.md
+    - Bugs et problèmes:
+      - Accueil: developer/bugs/index.md
+      - Site web: developer/bugs/website.md
+      - API: developer/bugs/api.md
+      - Application MR: developer/bugs/mr.md
+      - Application VR: developer/bugs/vr.md
+  - Licence: licence.md
+
+plugins: 
+  - search
+  - glightbox
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      puml_keyword: puml
+      puml_format: svg
+      num_workers: 2
+
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - tables
+  - def_list
+  - admonition
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

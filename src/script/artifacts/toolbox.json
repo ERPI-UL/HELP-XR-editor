@@ -1,0 +1,298 @@
+[
+    {
+        "kind": "category",
+        "contents": [
+            {
+                "kind": "block",
+                "type": "controls_if"
+            },
+            {
+                "kind": "block",
+                "type": "logic_compare"
+            },
+            {
+                "kind": "block",
+                "type": "logic_operation"
+            },
+            {
+                "kind": "block",
+                "type": "logic_negate"
+            },
+            {
+                "kind": "block",
+                "type": "logic_boolean"
+            }
+        ],
+        "id": "LOGIC",
+        "name": "",
+        "categorystyle": "logic_category"
+    },
+    {
+        "kind": "category",
+        "contents": [
+            {
+                "kind": "block",
+                "type": "controls_repeat_ext"
+            },
+            {
+                "kind": "block",
+                "type": "controls_whileUntil"
+            },
+            {
+                "kind": "block",
+                "type": "controls_for"
+            },
+            {
+                "kind": "block",
+                "type": "controls_flow_statements"
+            }
+        ],
+        "id": "LOOPS",
+        "name": "",
+        "categorystyle": "loop_category"
+    },
+    {
+        "kind": "category",
+        "contents": [
+            {
+                "kind": "block",
+                "type": "math_number",
+                "gap": "32"
+            },
+            {
+                "kind": "block",
+                "type": "math_arithmetic"
+            },
+            {
+                "kind": "block",
+                "type": "math_single"
+            },
+            {
+                "kind": "block",
+                "type": "math_trig"
+            },
+            {
+                "kind": "block",
+                "type": "math_constant"
+            },
+            {
+                "kind": "block",
+                "type": "math_number_property"
+            },
+            {
+                "kind": "block",
+                "type": "math_round"
+            },
+            {
+                "kind": "block",
+                "type": "math_on_list"
+            },
+            {
+                "kind": "block",
+                "type": "math_modulo"
+            },
+            {
+                "kind": "block",
+                "type": "math_constrain"
+            },
+            {
+                "kind": "block",
+                "type": "math_random_int"
+            },
+            {
+                "kind": "block",
+                "type": "math_random_float"
+            },
+            {
+                "kind": "block",
+                "type": "math_atan2"
+            }
+        ],
+        "id": "MATH",
+        "name": "",
+        "categorystyle": "math_category"
+    },
+    {
+        "kind": "category",
+        "contents": [
+            {
+                "kind": "block",
+                "type": "text"
+            },
+            {
+                "kind": "block",
+                "type": "text_multiline"
+            },
+            {
+                "kind": "block",
+                "type": "text_join"
+            },
+            {
+                "kind": "block",
+                "type": "text_append"
+            },
+            {
+                "kind": "block",
+                "type": "text_length"
+            },
+            {
+                "kind": "block",
+                "type": "text_isEmpty"
+            },
+            {
+                "kind": "block",
+                "type": "text_indexOf"
+            },
+            {
+                "kind": "block",
+                "type": "text_charAt"
+            },
+            {
+                "kind": "block",
+                "type": "text_getSubstring"
+            },
+            {
+                "kind": "block",
+                "type": "text_changeCase"
+            },
+            {
+                "kind": "block",
+                "type": "text_trim"
+            },
+            {
+                "kind": "block",
+                "type": "text_count"
+            },
+            {
+                "kind": "block",
+                "type": "text_replace"
+            },
+            {
+                "kind": "block",
+                "type": "text_reverse"
+            },
+            {
+                "kind": "LABEL",
+                "text": "Input/Output:",
+                "web-class": "ioLabel"
+            },
+            {
+                "kind": "block",
+                "type": "text_print"
+            },
+            {
+                "kind": "block",
+                "type": "text_prompt_ext"
+            }
+        ],
+        "id": "TEXT",
+        "name": "",
+        "categorystyle": "text_category"
+    },
+    {
+        "kind": "category",
+        "contents": [
+            {
+                "kind": "BLOCK",
+                "type": "lists_create_with"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_create_with"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_repeat"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_length"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_isEmpty"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_indexOf"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_getIndex"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_setIndex"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_getSublist"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_split"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_sort"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "lists_reverse"
+            }
+        ],
+        "id": "LISTS",
+        "name": "",
+        "categorystyle": "list_category"
+    },
+    {
+        "kind": "category",
+        "contents": [
+            {
+                "kind": "BLOCK",
+                "type": "colour_picker"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "colour_random"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "colour_rgb"
+            },
+            {
+                "kind": "BLOCK",
+                "type": "colour_blend"
+            }
+        ],
+        "id": "COLOUR",
+        "name": "",
+        "categorystyle": "colour_category"
+    },
+    {
+        "kind": "SEP"
+    },
+    {
+        "kind": "category",
+        "id": "VARIABLES",
+        "name": "",
+        "categorystyle": "variable_category",
+        "custom": "VARIABLE"
+    },
+    {
+        "kind": "category",
+        "id": "FUNCTIONS",
+        "name": "",
+        "categorystyle": "procedure_category",
+        "custom": "PROCEDURE"
+    },
+    {
+        "kind": "SEP"
+    },
+    {
+        "kind": "category",
+        "id": "COMPONENTS",
+        "name": "",
+        "contents": []
+    }
+]

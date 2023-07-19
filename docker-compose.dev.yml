@@ -1,0 +1,11 @@
+version: '3.9'
+ 
+services:
+  web:
+    build:
+      context : .
+      args:
+        - VITE_API_URL=https://indico-api-dev.lf2l.fr
+    ports:
+      - 81:80
+    restart: always

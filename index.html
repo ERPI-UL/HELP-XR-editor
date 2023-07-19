@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <!-- META WEBSITE INFOS -->
+    <meta property="og:title" content="Indico">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://indico-dev.lf2l.fr/">
+    <meta property="og:image" content="/img/icon.png">
+    <meta property="og:description" content="Indico">
+
+    <!-- WPA APP INFOS -->
+    <meta name="theme-color" content="#4f46e5">
+    <meta name="author" content="Indico" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Indico">
+    <link rel="apple-touch-icon" href="/app/icon.png">
+    <link rel="icon" href="/img/icon.png" type="image/png" />
+    <meta name="description" content="Apprenez de nouvelles choses grâce à la réalité étendue">
+    <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials" />
+    
+    <title> Indico </title>
+    <link rel="shortcut icon" href="/img/icon.png" type="image/png">
+
+    <style>
+        .noscript-div {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .noscript-text {
+            font-size: large;
+            font-weight: bold;
+            color: #4F46E5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .noscript-img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 4em;
+        }
+    </style>
+</head>
+
+<body class="flex bg-indigo-50 w-screen h-screen overflow-x-hidden">
+    <div id="app" class="flex grow max-w-full"></div>
+    <noscript>
+        <div class="noscript-div">
+            <img class="noscript-img" src="./src/assets/images/icon_full.png" alt="indico-icon">
+            <strong class="noscript-text">We're sorry but Indico cannot work without JavaScript enabled.</strong>
+            <strong class="noscript-text">Please enable it to continue.</strong>
+        </div>
+    </noscript>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
