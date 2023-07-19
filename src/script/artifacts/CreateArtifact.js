@@ -616,7 +616,7 @@ async function preProcessComponent(comp, deleteComp=false) {
 function generateComponentPropertiesScript(comp) {
     let script = `_G["${comp.tag}"].events.Start = function()\n`;
     for (const prop of comp.properties) {
-        const value = prop.value ?? prop.default;
+        const value = (prop.value === undefined)? prop.default : prop.value;
         const typedValue = typeof(value) === 'string' ? `"${value}"` : value;
         script += `    _G["${comp.tag}"].interactable.${prop.method}(${typedValue})\n`;
     }

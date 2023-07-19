@@ -81,7 +81,7 @@
                         :value="property.value ?? property.default ?? lang.SELECT_FILE"
                         :checked="property.value"
                         @input="ev => {
-                            const data = {checkbox: ev.target.checked, number: Number(ev.target.value), file: ev.target.files[0].name, default: ev.target.value};
+                            const data = {checkbox: ev.target.checked, number: Number(ev.target.value), file: ev.target.files?.[0]?.name, default: ev.target.value};
                             property.value = data[property.type] ?? data.default;
                             if (property.type === 'file') property.file = ev.target.files[0];
                         }"
