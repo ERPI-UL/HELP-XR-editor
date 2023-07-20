@@ -1,6 +1,6 @@
 # Documentation
 
-L'entièreté de la documentation du projet Indico est écrite en [Markdown](https://fr.wikipedia.org/wiki/Markdown), et est générée en HTML grâce à [MkDocs](https://www.mkdocs.org/).
+L'entièreté de la documentation du projet HelpXR est écrite en [Markdown](https://fr.wikipedia.org/wiki/Markdown), et est générée en HTML grâce à [MkDocs](https://www.mkdocs.org/).
 
 Les fichiers sources de la documentation peuvent être trouvés dans le dossier `/docs` du projet, avec le contenu de la documentation dans le dossier `docs/src/`.
 

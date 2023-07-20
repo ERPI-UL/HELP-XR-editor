@@ -1,4 +1,4 @@
-site_name: Indico Documentation
+site_name: HelpXR Documentation
 docs_dir: src
 theme:
   language: fr

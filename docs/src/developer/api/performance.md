@@ -3,7 +3,7 @@ Les routes performance de l'API permettent de récupérer des données lorsqu'un
 
 !!! warning
     Performance API est un sous-ensemble / inspiration de [xAPI](https://xapi.com/).
-    Pour le moment Indico ne possède pas de LRS pouvant passez les tests de conformité xAPI.
+    Pour le moment HelpXR ne possède pas de LRS pouvant passez les tests de conformité xAPI.
 
 Voici la liste des verbes utilisés dans l'API Performance :
 
@@ -24,7 +24,7 @@ Voici la liste des verbes utilisés dans l'API Performance :
 ```puml
 @startuml
 
-header Indico
+header HelpXR
 title "Déroulement d'une session"
 
 actor "Etudiant" as user

@@ -1,6 +1,6 @@
-# Lexique du projet Indico
+# Lexique du projet HelpXR
 Vous ne comprenez pas certains termes du site ? Un mot vous échappe pendant l'utilisation des applications ?
-Ce lexique est là pour vous aider à comprendre les termes utilisés dans le projet Indico.
+Ce lexique est là pour vous aider à comprendre les termes utilisés dans le projet HelpXR.
 
 ## Activité
 Une activité est un ensemble d'actions à réaliser pour compléter un objectif.
@@ -8,7 +8,7 @@ Ces actions sont à effectuer dans un ordre bien précis pour que l'activité so
 
 Une activité contient un titre, une description, des actions, et une liste d'artéfacts visés par cette activité.
 
-Vous pouvez retrouver toutes les activités de l'application sur la page [Activités](https://indico.lf2l.fr/activities) du site web.
+Vous pouvez retrouver toutes les activités de l'application sur la page [Activités](https://HelpXR.lf2l.fr/activities) du site web.
 
 !!! Example "Exemple d'activité"
     Imaginons que vous ayez une activité pour apprendre à faire un café.
@@ -52,7 +52,7 @@ Cet artéfact peut contenir plusieurs cibles, utilisés comme points de repère 
 
 Un artéfact contient un titre, une description, un modèle 3D ainsi qu'une liste de cibles.
 
-Vous pouvez retrouver tous les artéfacts de l'application sur la page [Artéfacts](https://indico.lf2l.fr/artifacts) du site web.
+Vous pouvez retrouver tous les artéfacts de l'application sur la page [Artéfacts](https://HelpXR.lf2l.fr/artifacts) du site web.
 
 !!! Example "Exemple d'artéfact"
     Imaginons la même activité "Faire un café" que précédemment.
@@ -71,7 +71,7 @@ Ces lieux sont des reproductions identiques de lieux réels, comme par exemple u
 
 Un environnement contient un titre, une description, et une liste d'artéfacts.
 
-Vous pouvez retrouver tous les artéfacts de l'application sur la page [Environnements](https://indico.lf2l.fr/workplaces) du site web.
+Vous pouvez retrouver tous les artéfacts de l'application sur la page [Environnements](https://HelpXR.lf2l.fr/workplaces) du site web.
 
 !!! Example "Exemple d'environnement"
     Imaginons la même activité "Faire un café" que précédemment.

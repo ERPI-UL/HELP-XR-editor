@@ -1,8 +1,8 @@
 # Documentation - Étudiant
 
-Bienvenue dans la documentation pour les étudiants d'Indico.
+Bienvenue dans la documentation pour les étudiants de HelpXR.
 
-C'est ici que vous pouvez trouver de l'aide, des tutoriels et d'autres informations pour vous aider à utiliser Indico en tant qu'étudiant.
+C'est ici que vous pouvez trouver de l'aide, des tutoriels et d'autres informations pour vous aider à utiliser HelpXR en tant qu'étudiant.
 
 ## Gérer mon compte
 

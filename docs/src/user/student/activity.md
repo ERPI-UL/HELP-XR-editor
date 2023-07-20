@@ -1,13 +1,13 @@
 # Consulter les activités
-De nombreuses activités très différentes sont disponibles sur Indico, et il est parfois difficile de s'y retrouver.
+De nombreuses activités très différentes sont disponibles sur HelpXR, et il est parfois difficile de s'y retrouver.
 Cette page vous permettra de comprendre ce qu'est une activité.
 
 ## Qu'est-ce qu'une activité ?
 Si vous n'avez aucune idée de ce qu'est une activité,
-nous vous invitons tout d'abord à regarder le [lexique](../../lexicon.md) d'Indico pour intégrer les termes de base.
+nous vous invitons tout d'abord à regarder le [lexique](../../lexicon.md) de HelpXR pour intégrer les termes de base.
 
 ## Où trouver les activités ?
-Les activités sont accessibles depuis n'importe quelle page web d'Indico.
+Les activités sont accessibles depuis n'importe quelle page web de HelpXR.
 
 Si vous êtes sur la page d'accueil du site web,
 vous pouvez cliquer sur le bouton `Activités` dans la barre de navigation en haut de la page.
@@ -36,7 +36,7 @@ Si vous vous sentez submergé par toutes ces informations, c'est normal.
 Nous allons vous expliquer comment lire une activité, et vous montrer comment retrouver les informations qui vous intéressent.
 
 ### Informations générales
-Comme pour toutes les autres ressources du projet Indico,
+Comme pour toutes les autres ressources du projet HelpXR,
 les informations générales d'une activité sont affichées en bas a droite de la page.
 
 C'est à cet endroit que vous retrouverez les informations de base de l'activité, comme:
@@ -47,7 +47,7 @@ C'est à cet endroit que vous retrouverez les informations de base de l'activit�
 - Le titre de l'activité
 - La description de l'activité
 - Un bouton de retour à la liste des activités
-- Un bouton de modification de l'activité
+- Un bouton de modification de l'activité (si autorisé)
 
 ![Activity infos](./activity_common.png){:style=width:300px;}
 

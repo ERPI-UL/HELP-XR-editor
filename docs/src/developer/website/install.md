@@ -3,10 +3,10 @@
 
 Le projet étant hébergé sur GitLab, il est nécessaire d'avoir un compte GitLab à l'Université de Lorraine pour pouvoir le récupérer.
 
-Si vous en possédez un, vous pouvez cloner le projet se situant à l'adresse `https://gitlab.univ-lorraine.fr/labos/erpi/indico/indico-web` en utilisant la commande suivante :
+Si vous en possédez un, vous pouvez cloner le projet se situant à l'adresse `https://gitlab.univ-lorraine.fr/labos/erpi/HelpXR/HelpXR-web` en utilisant la commande suivante :
 
 ```bash
-git clone https://gitlab.univ-lorraine.fr/labos/erpi/indico/indico-web
+git clone https://gitlab.univ-lorraine.fr/labos/erpi/HelpXR/HelpXR-web
 ```
 
 ## Installer le projet

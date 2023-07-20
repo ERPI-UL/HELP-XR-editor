@@ -1,5 +1,5 @@
 # Généralités
-Bienvenue sur la documentation des applications XR (MR et VR) d'Indico.
+Bienvenue sur la documentation des applications XR (MR et VR) de HelpXR.
 
 Cette page vous permettra de comprendre comment utiliser ces applications de manière à compléter des activités sans problèmes.
 

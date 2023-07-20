@@ -1,8 +1,8 @@
 # Documentation - Administrateur
 
-Bienvenue dans la documentation pour les administrateurs d'Indico.
+Bienvenue dans la documentation pour les administrateurs de HelpXR.
 
-C'est ici que vous pouvez trouver de l'aide, des tutoriels et d'autres informations pour vous aider à utiliser Indico en tant qu'administrateur.
+C'est ici que vous pouvez trouver de l'aide, des tutoriels et d'autres informations pour vous aider à utiliser HelpXR en tant qu'administrateur.
 
 ## Gérer mon compte
 

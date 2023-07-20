@@ -1,8 +1,8 @@
 # Documentation - Professeur
 
-Bienvenue dans la documentation pour les professeurs d'Indico.
+Bienvenue dans la documentation pour les professeurs de HelpXR.
 
-C'est ici que vous pouvez trouver de l'aide, des tutoriels et d'autres informations pour vous aider à utiliser Indico en tant que professeur.
+C'est ici que vous pouvez trouver de l'aide, des tutoriels et d'autres informations pour vous aider à utiliser HelpXR en tant que professeur.
 
 ## Gérer mon compte
 

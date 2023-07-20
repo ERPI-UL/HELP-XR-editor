@@ -1,6 +1,6 @@
 # Docker
 
-Pour simplifier la mise en place et le déploiement de l'application web, l'entièreté du site web d'Indico peut être lancé dans un conteneur dans sa version de production ou de développement grâce à [Docker](https://www.docker.com/).
+Pour simplifier la mise en place et le déploiement de l'application web, l'entièreté du site web de HelpXR peut être lancé dans un conteneur dans sa version de production ou de développement grâce à [Docker](https://www.docker.com/).
 
 ## Prérequis
 
@@ -8,7 +8,7 @@ Pour pouvoir lancer le site web dans un conteneur Docker, il est nécessaire d'a
 
 Enfin, certaines variables d'environnement sont à indiquer pour que le site web puisse fonctionner correctement:
 
-- `VITE_API_URL`: L'URL de l'API Indico (Par défaut : `https://indico.apis.furwaz.fr`)
+- `VITE_API_URL`: L'URL de l'API HelpXR (Par défaut : `https://HelpXR.apis.furwaz.fr`)
 
 Ces variables d'environnement peuvent être indiquées dans un fichier `.env` à la racine du projet, ou alors modifiées dans les fichier `docker-compose.dev.yml` ou `docker-compose.prod.yml` pour les versions de développement ou productions respectivement.
 

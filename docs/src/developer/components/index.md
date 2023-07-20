@@ -19,7 +19,7 @@ Un composant contient un type, permettant de définir plusieurs attributs:
 - Ses [propriétés](./properties.md)
 - Ses [méthodes](./methods.md)
 
-Il existe 7 types de composants de base dans Indico, en voici la liste:
+Il existe 7 types de composants de base dans HelpXR, en voici la liste:
 
 | Nom        | Description             |
 | ---------- | ----------------------- |

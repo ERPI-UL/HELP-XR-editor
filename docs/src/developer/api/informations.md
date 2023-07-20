@@ -1,8 +1,8 @@
 # Informations
 
-Le code source de l'API est disponible [ici](https://gitlab.univ-lorraine.fr/labos/erpi/indico/indico-api/-/tree/v2/api) sur le GitLab de l'Université de Lorraine.
+Le code source de l'API est disponible [ici](https://gitlab.univ-lorraine.fr/labos/erpi/HelpXR/HelpXR-api/-/tree/v2/api) sur le GitLab de l'Université de Lorraine.
 
-L'API d'Indico est au format REST. Elle est accessible uniquement via HTTPS et WebSockets.
+L'API de HelpXR est au format REST. Elle est accessible uniquement via HTTPS et WebSockets.
 
 ## Principales technologies utilisées
 
@@ -18,7 +18,7 @@ Certaines fonctinoalités de l'API utilisent des WebSockets, qui sont gérés pa
 ``` nginx title="Configuration reverse proxy Nginx" linenums="1" hl_lines="7-12"
 server {
 
-    server_name indico-api.lf2l.fr;
+    server_name HelpXR-api.lf2l.fr;
 
     location ~ /* {
         proxy_pass http://localhost:5000; 
@@ -31,8 +31,8 @@ server {
     }
 
     listen 443 ssl;
-    ssl_certificate /etc/letsencrypt/live/indico-api.lf2l.fr/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/indico-api.lf2l.fr/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/HelpXR-api.lf2l.fr/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/HelpXR-api.lf2l.fr/privkey.pem;
     include /etc/letsencrypt/options-ssl-nginx.conf;
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 }
@@ -81,9 +81,9 @@ server {
 
 ## Standards de données
 
-Indico API utilise le format JSON pour les données. Les dates sont au format ISO 8601.
+HelpXR API utilise le format JSON pour les données. Les dates sont au format ISO 8601.
 
-Voici la liste des objets utilisés dans Indico :
+Voici la liste des objets utilisés dans HelpXR :
 
 - User
 > Représente un utilisateur de l'application ( ex: Un étudiant, un enseignant, un administrateur )
