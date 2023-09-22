@@ -5,6 +5,9 @@
     <a href=""><img src="https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=FFFFFF"/></a>
     <a href=""><img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=FFFFFF"/></a>
 </p>
+<p align="center"> Join us on: 
+<a href="https://discord.gg/GeR6cFV9nq"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white"/></a>
+</p>
 
 ## Description
 Hybrid Extended Learning Platform is a software package that aims to ease the creation of XR content for intructional usage. The principle is to use a unique web interface to design instructional activities with augmentations and access it throught AR ou VR client. 
