@@ -21,8 +21,12 @@ This interface allow the creation of environments, the creation of activites, an
 
 ![Edit the behavior of an augmentation (machine)](./docs/src/assets/editMachineLogic.png)
 
+## Documentation
+Component documentation is available at the following address : https://erpi-ul.github.io/HELP-web/ 
+
 ## Instruction
 This component use Docker to ease the deployment.
+
 ### Development mode
 
 ```sh
