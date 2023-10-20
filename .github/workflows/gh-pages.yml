@@ -23,6 +23,7 @@ jobs:
       - run: pip install mkdocs-glightbox
       - run: pip install mkdocs-minify-plugin
       - run: pip install mkdocs_puml
+      - run: pip install -r requirements.txt
       - working-directory: ./docs
         run: mkdocs gh-deploy --force --clean --verbose
       
