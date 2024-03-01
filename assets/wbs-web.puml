@@ -1,0 +1,34 @@
+@startwbs
+* Open Source XR Authoring Tool
+** **Web authoring Tool**
+*** <&timer> Describe the behavior of an augmentation
+**** <&timer> Implement component behavior (add mor info)
+**** <&check> Implement blockly for 3D elements
+*** <&check> Improve previsualization with 3D model and XR interface
+*** <&check> Improve translation system (multi language system)
+*** <&check> Homogenize interface in the web site
+*** Create dashboard to visualize usages 
+*** <&check> Create environment for augmentation
+*** <&check> Upload custom augmentation
+**** <&check> Upload sound augmentation
+**** <&check> Upload image augmentation
+**** <&check> Upload video augmentation
+*** Create custom artifact interface
+
+** **API**
+*** <&check> Modify the data base for internationalization 
+*** <&check> Modify data strcture to comply ARLEM standard
+*** <&check> Create new route to collect data for usage monitoring (xAPI)
+*** Create statistics routes to retreive data for dashboard
+*** Create user groups (learning classes) for teachers
+
+** **Documentation**
+*** <&timer> Implement component behavior (add mor info)
+*** <&check> Create a seprate website for technical Documentation
+*** Add UML for most complex mecanism (connection on HMD) 
+*** Explain data strcture (ARLEM, xAPI)
+*** Present the documentation according to role (learner, instructor, technocal support) 
+*** Add comments and instructions to source code to increase reusability
+
+
+@endwbs

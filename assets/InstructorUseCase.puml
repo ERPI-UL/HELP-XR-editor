@@ -1,0 +1,46 @@
+@startuml
+actor Instructor
+frame "Web App" {
+    usecase connect [
+        Connect to the instructor instructor
+        ]
+    usecase createEnvironment [
+        Create environment 
+        and models behavior
+    ]
+    usecase createTraining [
+        Create training
+    ]
+    usecase previsualizeTraining [
+        Previsualize training process in 3D
+    ]
+    usecase visualizeData [
+        Visualize usage data
+    ]
+} 
+frame Physical {
+    usecase setup [
+        Setup marker in the environment 
+    ]
+}
+frame XR {
+    usecase paringAccount [
+        Pair the device with the instructor account
+    ]
+    usecase runTraining    [
+        Simulate the training on the XR device
+    ]
+}
+Instructor -- connect
+connect -- createTraining
+connect -- createEnvironment
+connect -- previsualizeTraining
+connect -- visualizeData
+Instructor -- paringAccount
+connect -- paringAccount
+paringAccount -- runTraining
+Instructor -- setup
+createEnvironment -- setup
+
+
+@enduml

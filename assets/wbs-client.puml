@@ -1,0 +1,28 @@
+@startwbs
+* Open Source XR Authoring Tool
+** **VR client**
+*** <&check> Update common user interface with AR (menu, augmentation)
+*** <&check> Download augmentation and 3D Model for the scenario
+*** <&check> Visualize custom augmentation and 3D Model
+*** <&timer> Implement open source TTS
+*** <&check> Generate a parametric environment to similate a space
+*** Add multiple languages support (translations)
+
+** **AR client**
+*** <&check> Update common user interface with XR (menu, augmentation)
+*** <&check> Download augmentation and 3D Model for the scenario
+*** <&check> Visualize custom augmentation and 3D Model
+*** <&check>Collect user interaction during the learning phase
+*** <&timer> Implement open source TTS
+*** Add multiple languages support (translations)
+
+** **WebXR client**
+*** Create the interace to signup and login
+*** Download augmentation and 3D Model for the scenario
+*** Genrate a parametric environment to similate a space
+*** Collect user interaction during the learning phase
+*** Adapt interface according desktop or XR usage
+
+
+
+@endwbs

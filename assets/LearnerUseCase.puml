@@ -1,0 +1,35 @@
+@startuml
+actor Learner
+frame "Web App" {
+    usecase connect [
+        Connect to the learner account
+        ]
+    usecase dataViz    [
+        Visualise learning analytics 
+    ]
+} 
+frame Physical  #line.dotted {
+    usecase manipulate #line.dotted [
+        Manipulate the machine to do the action
+    ]
+    
+}
+frame XR {
+    usecase paringAccount [
+        Pair the device with the learner account
+    ]
+    usecase runTraining    [
+        Do the training on the XR device
+    ]
+}
+Learner -- connect
+Learner -- paringAccount
+connect -- paringAccount
+paringAccount -- runTraining
+Learner -- manipulate #line.dotted
+connect -- dataViz
+runTraining -- manipulate #line.dotted
+
+
+
+@enduml
